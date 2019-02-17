@@ -1,0 +1,12 @@
+<h3>Reddit.com Connector</h3>
+<p class="Contributor">
+	DotNetNuclear <br />
+	<a href="mailto:support@dotnetnuclear.com">support@dotnetnuclear.com</a><br />
+	<a href=http://www.dotnetnuclear.com>http://www.dotnetnuclear.com</a><br />
+</p>
+<hr/>
+<div class="License">
+	<p class="Owner">
+		<strong>Verion 1.0.0</strong>
+	</p>
+</div>

@@ -1,0 +1,40 @@
+﻿#connector-Reddit > div.edit-fields {
+    box-sizing: border-box;
+}
+
+#connector-Reddit > div.edit-fields {
+    padding-bottom: 20px;
+}
+
+.span2col {
+    width: 60% !important;
+}
+
+.connector-reddit-form-item::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#connector-Reddit > div.edit-fields .connector-reddit-form-item {
+    box-sizing: border-box;
+    float: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#connector-Reddit > div.edit-fields .connector-reddit-form-item label {
+    padding-right: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: right;
+    width: 25%;
+}
+
+#connector-Reddit.mobile-view .advancedSetting {
+    top: -43px;
+}
+
+#connector-Reddit a.helpIcon:hover:after,#connector-Reddit a.helpIcon:hover:before {
+    display: none;
+}

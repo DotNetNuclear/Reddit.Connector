@@ -1,0 +1,50 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="Reddit.DNNConnector" type="Connector" version="01.00.00" isSystem="false">
+      <friendlyName>Reddit API Connector</friendlyName>
+      <description>The Reddit API Connector provides a centralized management interface for Reddit integration.</description>
+      <iconFile>~/DesktopModules/Connectors/Reddit/Images/extension-icon-reddit.png</iconFile>
+      <owner>
+        <name>DotNetNuclear</name>
+        <organization>DotNetNuclear LLC</organization>
+        <url>http://www.dotnetnuclear.com</url>
+        <email>support@dotnetnuclear.com</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <azureCompatible>true</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">09.01.00</dependency>
+      </dependencies>
+      <components>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <name>Reddit.DNNConnector.dll</name>
+              <path>bin</path>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="File">
+          <files>
+            <basePath>DesktopModules\Connectors\Reddit\Documentation</basePath>
+            <file>
+              <name>License.txt</name>
+            </file>
+            <file>
+              <name>ReleaseNotes.txt</name>
+            </file>
+          </files>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules\Connectors\Reddit</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
