@@ -31,10 +31,17 @@
     width: 25%;
 }
 
-#connector-Reddit.mobile-view .advancedSetting {
-    top: -43px;
+.connector-reddit-form-item .helpIcon {
+    display: inline-block;
+    border-radius: 14px;
+    background-color: #FF4500;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    color: #fff;
+    margin-left: 5px;
+    font-size: 10px;
+    line-height: 14px;
 }
 
-#connector-Reddit a.helpIcon:hover:after,#connector-Reddit a.helpIcon:hover:before {
-    display: none;
-}
+
